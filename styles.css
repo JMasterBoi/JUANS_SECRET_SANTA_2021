@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    font-family: Lucida Sans;
+    background: url(https://floranext.com/wp-content/uploads/2011/12/white-balls.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#intro {
+    color: green;
+}
+
+#title {
+    color: red;
+}
+  
+.row {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+
+.item {
+    margin-top: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.price {
+    display: inline;
+}
+
+p {
+    line-height: 30px;
+}
+
+a {
+    color: rgb(160, 233, 255);
+}
+
+a:visited {
+    color: rgb(67, 169, 252);
+}
+
+
